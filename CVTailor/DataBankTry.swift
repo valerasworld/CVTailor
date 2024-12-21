@@ -19,14 +19,14 @@ struct DataBankTry: View {
             UserInfoSectionView(data: data, isExpanded: isExpanded)
             .listRowSeparator(.hidden)
             
-//            SummarySectionView(data: data, isExpanded: isExpanded)
-//            .listRowSeparator(.hidden)
-//            
-//            SkillsSectionView(data: data, isExpanded: isExpanded)
-//            .listRowSeparator(.hidden)
-//            
-//            ExperienceSectionView(data: data, isExpanded: isExpanded)
-//            .listRowSeparator(.hidden)
+            SummarySectionView(data: data, isExpanded: isExpanded)
+            .listRowSeparator(.hidden)
+            
+            SkillsSectionView(data: data, isExpanded: isExpanded)
+            .listRowSeparator(.hidden)
+            
+            ExperienceSectionView(data: data, isExpanded: isExpanded)
+            .listRowSeparator(.hidden)
             
             /*
              qualification: "Your Qualificaion 2",

@@ -27,7 +27,8 @@ struct CVTailorApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TopTabbarView()
+            ResumeDataView()
+//            DataBankTry()
         }
     }
 }
